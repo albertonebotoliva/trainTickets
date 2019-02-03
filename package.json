@@ -1,0 +1,19 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "Basic crawler for foxintelligence",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "jest"
+  },
+  "author": "Alberto Nebot Oliva",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "moment": "^2.24.0"
+  }
+}
